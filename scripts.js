@@ -1,4 +1,33 @@
 function buttoncreate() {
-    document.getElementById('paragraph').innerHTML = "OK, well you clicked but while we are here this happened as a reusult of calling a function on this button by clicking it.  It traverses the DOM to to find the element you specifiy and a function that changes the text on the page."
+    document.getElementById('paragraph').innerHTML = "Well OK, you clicked it anyway..."
 }
 
+
+
+function backgroundred() {
+    document.body.style.backgroundColor = "red";
+
+}
+
+function backgroundblue() {
+    document.body.style.backgroundColor = "blue";
+    
+}
+
+function backgroundyellow() {
+    document.body.style.backgroundColor = "yellow";
+    
+}
+
+function backgroundwhite() {
+    document.body.style.backgroundColor = "white";
+    
+}
+
+function backgroundImage() {
+    document.body.style.backgroundImage = "url('http://blogs.discovermagazine.com/d-brief/files/2019/02/Ocean-Blue.jpg')";
+}
+
+function removebackgroundimage() {
+    document.body.style.backgroundImage = "initial";
+}
